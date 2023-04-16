@@ -15,7 +15,7 @@ def prepro_medicat(min_length=3):
         "test": []
     }
 
-    data_root = "data/pretrain_data/medicat"
+    data_root = "../data/pretrain_data/clef2022"
     image_root = f"{data_root}/release/figures/"
     medicat_ann_path = f"{data_root}/release/s2_full_figures_oa_nonroco_combined_medical_top4_public.jsonl"
 
